@@ -9,4 +9,10 @@
         public string role { get; set; }
 
     }
+
+    public class AuthSignInModel
+    {
+        public string email { get; set; }
+        public string password { get; set; }
+    }
 }
